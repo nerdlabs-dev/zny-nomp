@@ -1,0 +1,10 @@
+{
+
+	"name": "WayaWolf",
+	"symbol": "WW",
+	"algorithm": "hmq1725",
+	"reward": "POS",
+	"noGetnetworkhashps": true,
+	"noNetworkInfo": true
+
+}

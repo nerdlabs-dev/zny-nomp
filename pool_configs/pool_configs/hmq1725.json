@@ -1,0 +1,142 @@
+{
+
+    "enabled": true,
+
+    "coin": "hmq1725.json",
+
+    "blockIdentifier": "url.pool",
+
+    "address": "master_wallet_here",
+
+    "rewardRecipients": {
+        "fee_address_here": 1.5,
+        "spare": 0.0
+    },
+
+    "paymentProcessing": {
+
+        "minConf": 10,
+        "enabled": true,
+        "paymentMode": "prop",
+        "_comment_paymentMode": "prop, pplnt",
+        "paymentInterval": 3600,
+        "minimumPayment": 0.1,
+        "maxBlocksPerPayment": 3,
+
+    "daemon": {
+
+        "host": "127.0.0.1",
+        "port": 57655,
+        "user": "ygtfytuguyguyghuygughuy",
+        "password": "yftrtdfrtfr6t7t76t7"
+
+        }},
+
+        "tlsOptions": {
+        "enabled": false,
+        "serverKey": "",
+        "serverCert": "",
+        "ca": ""
+
+        },
+
+    "ports": {
+        "3425": {
+        "diff": 128,
+        "tls": false
+
+        },
+
+        "3124": {
+        "diff": 256,
+        "tls": false
+
+        },
+
+        "3123": {
+        "diff": 1024,
+        "tls": false
+
+        },
+
+        "3122": {
+        "diff": 2048,
+        "tls": false
+
+        },
+
+        "3111": {
+        "diff": 16,
+        "tls": false,
+        "varDiff": {
+        "minDiff": 0.1,
+        "maxDiff": 16384,
+        "targetTime": 15,
+        "retargetTime": 60,
+        "variancePercent": 30
+
+        }},
+
+        "3110": {
+        "diff": 512,
+        "tls": false,
+        "varDiff": {
+        "minDiff": 32,
+        "maxDiff": 16384,
+        "targetTime": 20,
+        "retargetTime": 60,
+        "variancePercent": 30
+
+        }},
+
+        "3109": {
+        "diff": 4096,
+        "tls": false,
+        "varDiff": {
+        "minDiff": 512,
+        "maxDiff": 163840,
+        "targetTime": 30,
+        "retargetTime": 60,
+        "variancePercent": 30
+
+        }},
+
+        "3126": {
+        "diff": 4096,
+        "tls": false
+
+        }},
+
+    "poolId": "main",
+        "_comment_poolId": "use it for region identification: eu, us, asia or keep default if you have one stratum instance for one coin",
+
+    "daemons": [{
+
+        "host": "127.0.0.1",
+        "port": 57655,
+        "user": "ygtfytuguyguyghuygughuy",
+        "password": "yftrtdfrtfr6t7t76t7"
+
+        }],
+
+    "p2p": {
+
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 1,
+        "disableTransactions": true
+
+        },
+
+    "mposMode": {
+
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "dbuser",
+        "password": "yugy7t65r65t",
+        "database": "DB",
+        "checkPassword": true,
+        "autoCreateWorker": false
+
+        }}
